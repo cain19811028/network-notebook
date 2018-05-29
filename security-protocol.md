@@ -6,7 +6,7 @@ SSL 憑證安裝於伺服器上，但是在瀏覽器上，使用者仍可看到�
 
 ## TLS（Transport Layer Security）
 
-是更新、更安全的 SSL 版本。
+是更新、更安全的 SSL 版本，其運作方式與 SSL 大致相同，使用加密來保護資料和資訊的傳輸。
 
 ## HTTPS（Hyper Text Transfer Protocol Secure）
 
