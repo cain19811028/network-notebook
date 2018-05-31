@@ -1,6 +1,8 @@
 # 通用工業協定（Common Industrial Protocol） {#firstHeading}
 
-## CAN（Controller Area Network）：控制器區域網路
+## CAN（Controller Area Network）
+
+控制器區域網路（Controller Area Network，簡稱 CAN 或者 CAN bus）是一種功能豐富的車用匯流排標準。被設計用於在不需要主機（Host）的情況下，允許網路上的單晶片和儀器相互通訊。 它基於訊息傳遞協定，設計之初在車輛上採用復用通訊線纜，以降低銅線使用量，後來也被其他行業所使用。
 
 ## EtherNet/IP：乙太網路工業協定
 
