@@ -4,17 +4,17 @@ Message Queuing Telemetry Transport
 
 ## MQTT Compared to HTTP
 
-Both HTTP and MQTT are based on TCP/IP
+Both HTTP and MQTT are based on TCP/IP
 
-HTTP uses Request/Response \(1 to 1\)
+HTTP uses Request/Response \(1 to 1\)
 
-MQTT uses Publish/Subscribe pattern \(1-to-1 or 1-to-many\)
+MQTT uses Publish/Subscribe pattern \(1-to-1 or 1-to-many\)
 
-HTTP is document centric, MQTT is data centric
+HTTP is document centric, MQTT is data centric
 
 HTTP is more complex than MQTT which is simple
 
-MQTT message size is smaller, with only a 2 byte header
+MQTT message size is smaller, with only a 2 byte header
 
 MQTT offers 3 Quality of Service \(QoS\) settings, with HTTP all messages get same level of service.
 
@@ -32,10 +32,10 @@ MQTT offers 3 Quality of Service \(QoS\) settings, with HTTP all messages get sa
 | CONNECT | 1 | 發出連線請求 |
 | CONNACK | 2 | 連線請求的ACK（確認符） |
 | PUBLISH | 3 | 發佈訊息 |
-| PUBACK | 4 | 發佈訊息ACK\(QoS 1\) |
-| PUBREC | 5 | 已收到發佈訊息\(QoS 2\) |
-| PUBREL | 6 | 釋放發布訊息\(QoS 2\) |
-| PUBCOMP | 7 | 訊息發佈完成\(QoS 2\) |
+| PUBACK | 4 | 發佈訊息ACK \(QoS 1\) |
+| PUBREC | 5 | 已收到發佈訊息 \(QoS 2\) |
+| PUBREL | 6 | 釋放發布訊息 \(QoS 2\) |
+| PUBCOMP | 7 | 訊息發佈完成 \(QoS 2\) |
 | SUBSCRIBE | 8 | 發出訂閱請求 |
 | SUBACK | 9 | 請求訂閱的ACK |
 | UNSUBSCRIBE | 10 | 發出取消訂閱請求 |
