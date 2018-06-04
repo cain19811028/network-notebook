@@ -2,6 +2,22 @@
 
 Message Queuing Telemetry Transport
 
+## MQTT Compared to HTTP
+
+Both HTTP and MQTT are based on TCP/IP
+
+HTTP uses Request/Response \(1 to 1\)
+
+MQTT uses Publish/Subscribe pattern \(1-to-1 or 1-to-many\)
+
+HTTP is document centric, MQTT is data centric
+
+HTTP is more complex than MQTT which is simple
+
+MQTT message size is smaller, with only a 2 byte header
+
+MQTT offers 3 Quality of Service \(QoS\) settings, with HTTP all messages get same level of service.
+
 ## Quality of service \(QoS\)
 
 * 0 = 最多一次傳送（只負責傳送，發送過後就不管數據的傳送情況）
@@ -32,6 +48,4 @@ Message Queuing Telemetry Transport
 ## Comparison of MQTT Implementations
 
 [https://en.wikipedia.org/wiki/Comparison\_of\_MQTT\_Implementations](https://en.wikipedia.org/wiki/Comparison_of_MQTT_Implementations)
-
-
 
