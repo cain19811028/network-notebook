@@ -24,27 +24,6 @@ MQTT offers 3 Quality of Service \(QoS\) settings, with HTTP all messages get sa
 * 1 = 至少一次傳送（確認數據交付）
 * 2 = 正好一次傳送（保證數據交付成功）
 
-<table>
-    <tr>
-        <td>bit</td>
-        <td>7</td>
-        <td>6</td>
-        <td>5</td>
-        <td>4</td>
-        <td>3</td>
-        <td>2</td>
-        <td>1</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>byte 1</td>
-        <td colspan="4">Message Type</td>
-        <td>DUP flag</td>
-        <td colspan="2">QoS level</td>
-        <td>RETAIN</td>
-    </tr>
-</table>
-
 ## MQTT Message Type
 
 | **名稱** | **代表值** | **說明** |
