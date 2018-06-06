@@ -49,3 +49,11 @@ MQTT offers 3 Quality of Service \(QoS\) settings, with HTTP all messages get sa
 
 [https://en.wikipedia.org/wiki/Comparison\_of\_MQTT\_Implementations](https://en.wikipedia.org/wiki/Comparison_of_MQTT_Implementations)
 
+## MQTT 5.0 new feature
+
+[http://docs.oasis-open.org/mqtt/mqtt/v5.0/cs02/mqtt-v5.0-cs02.html\#\_Toc514345565](http://docs.oasis-open.org/mqtt/mqtt/v5.0/cs02/mqtt-v5.0-cs02.html#_Toc514345565)
+
+
+
+
+
