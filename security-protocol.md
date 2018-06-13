@@ -8,7 +8,16 @@ SSL 憑證安裝於伺服器上，但是在瀏覽器上，使用者仍可看到�
 
 是更新、更安全的 SSL 版本，其運作方式與 SSL 大致相同，使用加密來保護資料和資訊的傳輸。
 
+| Protocol | Published |
+| :--- | :--- |
+| SSL 1.0 | Unpublished |
+| SSL 2.0 | 1995 |
+| SSL 3.0 | 1996 |
+| TLS 1.0 | 1999 |
+| TLS 1.1 | 2006 |
+| TLS 1.2 | 2008 |
+| TLS 1.3 | 2018 |
+
 ## HTTPS（Hyper Text Transfer Protocol Secure）
 
 會在網站受到 SSL 憑證保護時在網址中出現。
-
